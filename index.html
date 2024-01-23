@@ -43,7 +43,7 @@
 
 <body class="font-manrope mx-3 lg:max-w-screen-xl lg:mx-auto ">
     <header class="mb-10 lg:mb-24">
-        <nav class="mt-5">
+        <nav class="mt-5 -mx-[10px]">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -66,7 +66,7 @@
                     <a class="text-3xl font-extrabold text-[#131318]">Hockey’s</a>
                 </div>
                 <div class="navbar-center hidden  lg:flex">
-                    <ul class="menu menu-horizontal px-1 gap-7">
+                    <ul class="menu menu-horizontal lg:px-1 gap-7">
                         <li><a class="text-[#FF4240]">Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -88,7 +88,7 @@
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./images/1.png" class="w-full" />
                     <div
-                        class="absolute flex gap-4 transform -translate-y-1/2 left-24 top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
+                        class="absolute flex gap-4 transform -translate-y-1/2 left-[101px] top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
                         <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-0">❮</a>
                         <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-0">❯</a>
                     </div>
@@ -96,7 +96,7 @@
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./images/2.png" class="w-full" />
                     <div
-                        class="absolute flex gap-4 transform -translate-y-1/2 left-24 top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
+                        class="absolute flex gap-4 transform -translate-y-1/2 left-[101px] top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
                         <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-0">❮</a>
                         <a href="#slide3" class="btn btn-circle bg-[#131318] text-white border-0">❯</a>
                     </div>
@@ -104,7 +104,7 @@
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="./images/3.png" class="w-full" />
                     <div
-                        class="absolute flex gap-4 transform -translate-y-1/2 left-24 top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
+                        class="absolute flex gap-4 transform -translate-y-1/2 left-[101px] top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
                         <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-0">❮</a>
                         <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-0">❯</a>
                     </div>
@@ -112,7 +112,7 @@
                 <div id="slide4" class="carousel-item relative w-full">
                     <img src="./images/4.png" class="w-full" />
                     <div
-                        class="absolute flex gap-4 transform -translate-y-1/2 left-24 top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
+                        class="absolute flex gap-4 transform -translate-y-1/2 left-[101px] top-52 lg:left-5 lg:right-5 lg:top-1/2 lg:mt-56 lg:ml-3">
                         <a href="#slide3" class="btn btn-circle bg-[#131318] text-white border-0">❮</a>
                         <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-0">❯</a>
                     </div>
@@ -134,8 +134,11 @@
         <!-- professional section -->
         <section>
             <div class="text-center">
-                <h2 class="text-[#131318] sm:mt-10 text-[22px] font-extrabold   lg:text-3xl lg:font-extrabold lg:mt-6 mb-6">Professional Hockeys Club</h2>
-                <p class="px-2.5 text-sm lg:p-2 lg:text-base font-medium text-[#13131899]">Nothing is won on your first shift and nothing is lost
+                <h2
+                    class="text-[#131318] sm:mt-10 text-[20px] px-5 font-extrabold   lg:text-3xl lg:font-extrabold lg:mt-6 mb-6">
+                    Professional Hockeys Club</h2>
+                <p class="px-2.5 text-sm lg:p-2 lg:text-base font-medium text-[#13131899]">Nothing is won on your first
+                    shift and nothing is lost
                     on your first shift, so it's about keeping things in perspective.</p>
             </div>
             <hr class="bg-[#13131833] border-dashed mb-6 lg:mb-24 mt-8">
@@ -143,31 +146,98 @@
             <!-- progress section -->
             <div class="grid sm:grid-cols-1 lg:grid-cols-4 gap-8 ">
                 <div class="flex flex-col items-center">
-                    <div class="text-[#ff4240] mb-6 radial-progress" style="--value:87; --size:8rem; --thickness: 1rem;"
-                        role="progressbar"><span class="text-2xl font-extrabold text-[#131318]">87%</span></div>
+                    <div class="rotate-180 text-[#ff4240] mb-6 radial-progress"
+                        style="--value:87; --size:8rem; --thickness: 1rem;" role="progressbar"><span
+                            class="rotate-180 text-2xl font-extrabold text-[#131318]">87%</span></div>
                     <h4 class="text-xl font-semibold text-[#131318] mb-4">Prayer Facility</h4>
-                    <p class="text-center text-base font-normal text-[#13131899]">A good hockey player plays where the puck is.</p>
+                    <p class="px-6 lg:px-0 text-center text-base font-normal text-[#13131899]">A good hockey player plays where the
+                        puck is.</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="text-[#49d293] mb-6 radial-progress" style="--value:95; --size:8rem; --thickness: 1rem;"
-                        role="progressbar"><span class="text-2xl font-extrabold text-[#131318]">95%</span></div>
+                    <div class="rotate-180 text-[#49d293] mb-6 radial-progress"
+                        style="--value:95; --size:8rem; --thickness: 1rem;" role="progressbar"><span
+                            class="rotate-180 text-2xl font-extrabold text-[#131318]">95%</span></div>
                     <h4 class="text-xl font-semibold text-[#131318] mb-4">Experienced Coach</h4>
-                    <p class="text-center text-base font-normal text-[#13131899]">A good hockey player plays where the puck is.</p>
+                    <p class="px-6 lg:px-0 text-center text-base font-normal text-[#13131899]">A good hockey player plays where the
+                        puck is.</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="text-[#e3a13e] mb-6 radial-progress" style="--value:90; --size:8rem; --thickness: 1rem;"
-                        role="progressbar"><span class="text-2xl font-extrabold text-[#131318]">90%</span></div>
+                    <div class="rotate-180 text-[#e3a13e] mb-6 radial-progress"
+                        style="--value:90; --size:8rem; --thickness: 1rem;" role="progressbar"><span
+                            class="rotate-180 text-2xl font-extrabold text-[#131318]">90%</span></div>
                     <h4 class="text-xl font-semibold text-[#131318] mb-4">Senior Player</h4>
-                    <p class="text-center text-base font-normal text-[#13131899]">A good hockey player plays where the puck is.</p>
+                    <p class="px-6 lg:px-0 text-center text-base font-normal text-[#13131899]">A good hockey player plays where the
+                        puck is.</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="text-[#4b8bee] mb-6 radial-progress" style="--value:80; --size:8rem; --thickness: 1rem;"
-                        role="progressbar"><span class="text-2xl font-extrabold text-[#131318]">80%</span></div>
+                    <div class="rotate-180 text-[#4b8bee] mb-6 radial-progress"
+                        style="--value:80; --size:8rem; --thickness: 1rem;" role="progressbar"><span
+                            class="rotate-180 text-2xl font-extrabold text-[#131318]">80%</span></div>
                     <h4 class="text-xl font-semibold text-[#131318] mb-4">Training Ground</h4>
-                    <p class="text-center text-base font-normal text-[#13131899]">A good hockey player plays where the puck is.</p>
+                    <p class="px-6 lg:px-0 text-center text-base font-normal text-[#13131899]">A good hockey player plays where the
+                        puck is.</p>
                 </div>
             </div>
-            <hr class="bg-[#13131833] border-dashed mb-24 mt-6 lg:mt-24">
+            <hr class="bg-[#13131833] border-dashed mb-8 mt-6 lg:mt-24">
+        </section>
+
+        <!-- Program Sections -->
+        <section>
+            <h3 class="text-center mb-6 text-[#131318] text-2xl lg:text-3xl font-extrabold">Program Sections</h3>
+            <p class="text-center mb-8 text-[#13131899] text-sm px-6 lg:p-0 lg:text-base font-medium">Never let your
+                head hang down. Never
+                give up and sit down and grieve. Find another way.</p>
+
+            <hr class="bg-[#13131833] border-dashed mb-12 mt-6 lg:mt-6">
+            <!-- registration -->
+            <div class="flex flex-col lg:grid  lg:grid-cols-2 gap-6 ">
+                <!-- first sec -->
+                <div class="hero  lg:flex-1 h-[244px] lg:h-[338px] rounded-xl"
+                    style="background-image: url(./images/2.png); ">
+                    <div class="hero-overlay rounded-xl bg-opacity-60"></div>
+                    <div class="hero-content text-start text-neutral-content">
+                        <div class="px-3 lg:p-8">
+                            <h1 class="mb-3 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Junior Program</h1>
+                            <p class="mb-3 lg:mb-6 text-sm lg:text-base">Hockey s a funny game. You have to prove
+                                yourself every shift, every game.
+                                It's not up to anybody else. You have to take pride in yourself.</p>
+                            <button class="btn border-0 lg:px-6 text-base font-bold text-white bg-[#FF4240]">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- second sec -->
+                <div class="hero lg:flex-1 h-[244px] lg:h-[338px] rounded-xl"
+                    style="background-image: url(./images/3.png);">
+                    <div class="hero-overlay rounded-xl bg-opacity-60"></div>
+                    <div class="hero-content text-start text-neutral-content">
+                        <div class="px-3 lg:p-8">
+                            <h1 class="mb-3 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Teenager Program</h1>
+                            <p class="mb-3 lg:mb-6 text-sm lg:text-base">Hockey s a funny game. You have to prove
+                                yourself every shift, every game.
+                                It's not up to anybody else. You have to take pride in yourself.</p>
+                            <button class="btn border-0 lg:px-6 text-base font-bold text-white bg-[#FF4240]">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- third sec -->
+                <div class="hero lg:relative lg:col-span-2 rounded-xl h-[244px] lg:h-[450px]"
+                    style="background-image: url(./images/4.png);">
+                    <div class="hero-overlay rounded-xl bg-opacity-60"></div>
+                    <div class="hero-content text-start  text-neutral-content">
+                        <div class="max-w-md lg:absolute left-14 bottom-14 px-3 lg:p-8">
+                            <h1 class="mb-3 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Professional Program
+                            </h1>
+                            <p class="mb-3 lg:mb-6 text-sm lg:text-base">Hockey s a funny game. You have to prove
+                                yourself every shift, every game.
+                                It's not up to anybody else. You have to take pride in yourself.</p>
+                            <button class="btn border-0 lg:px-6 text-base font-bold text-white bg-[#FF4240]">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
